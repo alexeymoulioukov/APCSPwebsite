@@ -1,0 +1,238 @@
+h1:hover{
+    color:white;
+}
+
+
+.mynav {
+    background-color:#444444;
+}
+.mainarea{
+    text-align:center;
+}
+.scrollLinks{
+    margin-bottom:20px;
+    text-align:center;
+}
+.scrollLinks a{
+    margin:20px;
+    text-decoration:none;
+    color:white;
+    background-color:#020305;
+    
+}
+.bio1 {
+    min-height:200px;
+    float:left;
+    width:80%;
+    text-align:center;
+}
+.bio2 {
+    min-height:200px;
+    float:right;
+    width:80%;
+    text-align:center;
+}
+.mynav a:hover{
+    background-color:yellow;
+}
+.mainsection {
+    text-align:center;
+}
+button {
+    text-align:center;
+}
+.centerButton{
+    text-align:center;
+   
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*css controls styling(color, location, spacing, size, etc.)*/
+
+/*first you put an html element with { and then a } */
+/*then iside the curly brace you do style:detail; */
+
+
+
+
+
+
+nav {
+    background-color:lightblue;
+
+    position:relative;
+    
+}
+h5{
+    color:white;
+}
+h6{
+    color:green;
+}
+
+
+
+
+nav li{
+    display: inline-block;
+    margin-left:30px;
+}
+nav a{
+    text-decoration: none;
+    color:white;
+    display:inline-block;
+}
+
+footer {
+    background-color:blue;
+    color:white;
+    min-height:140px;
+    padding-top:40px;
+    width:100%;
+    bottom:0;
+}
+nav a:hover{
+    color:black;
+    background-color:white;
+    font-weight:bold;
+}
+
+/* Mobile-first: Applies to screens 768px wide or larger */
+@media screen and (width >= 768px) {
+  body {
+    background-color: lightblue;
+  }
+}
+
+/* Screen width range: Applies strictly between 400px and 1000px */
+@media screen and (400px <= width <= 1000px) {
+  .sidebar {
+    display: block;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.top-text{
+    color:orange;
+}
+.bottom-text{
+    color:black;
+}
+.parallax {
+  /* The image used */
+  background-image: url("https://images.unsplash.com/photo-1647962431451-d0fdaf1cf21c?fm=jpg&q=60&w=3000&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8YmVhY2glMjBzdW5zZXR8ZW58MHx8MHx8fDA%3D");
+
+  /* Set a specific height */
+  min-height: 500px;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+/* The animation code */
+@keyframes myAnimation {
+  from {background-color: red;
+      color:yellow;
+  }
+  to {background-color: yellow;
+      color:yellow;
+  }
+}
+
+/* The element to apply the animation to */
+.colorchanger {
+  width: 100%;
+  height: 100px;
+  background-color: red;
+  animation-name: myAnimation;
+  animation-duration: 4s;
+  animation-iteration-count:infinite;
+  animation-direction:alternate;
+  text-align:center;
+}
+.gridColor1{
+    background-color:#020305;
+    text-align:center;
+    margin:10px;
+}
+.gridColor2{
+    background-color: #020305;
+    text-align:center;
+    margin:10px;
+}
+h1 {
+    text-align:center;
+}
+p {
+    text-align:center;
+}
+bg-light {
+    background-color:orange;
+}
+.mynav a:hover{
+    background-color:orange;
+}
