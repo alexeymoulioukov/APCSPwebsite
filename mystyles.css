@@ -2,7 +2,10 @@ h1:hover{
     color:white;
 }
 
-
+.projects {
+    background-color: lightBlue;
+    color: black;
+}
 .mynav {
     background-color:#444444;
 }
