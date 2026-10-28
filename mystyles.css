@@ -275,6 +275,13 @@ nav a:hover{
   background-repeat: no-repeat;
   background-size: cover;
 }
+
+@media (hover: none) and (pointer: coarse) {
+  .parallax {
+    background-attachment: scroll;
+  }
+}
+
 /* The animation code */
 @keyframes myAnimation {
   from {background-color: red;
