@@ -54,6 +54,8 @@ button {
 }
 .centerButton{
     text-align:center;
+    justify-content: center;
+    display: flex;
    
 }
 
