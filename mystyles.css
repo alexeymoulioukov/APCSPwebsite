@@ -275,13 +275,13 @@ nav a:hover{
   background-repeat: no-repeat;
   background-size: cover;
 }
-
-@media (hover: none) and (pointer: coarse) {
+@media (hover: none), (max-width: 768px) {
   .parallax {
-    background-attachment: scroll;
+    background-attachment: fixed;
+    min-height: 60svh;
+    background-image: url("https://images.unsplash.com/photo-1647962431451-d0fdaf1cf21c?fm=jpg&q=85&w=1200&h=2000&auto=format&fit=crop");
   }
 }
-
 /* The animation code */
 @keyframes myAnimation {
   from {background-color: red;
