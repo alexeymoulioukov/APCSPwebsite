@@ -10,7 +10,22 @@
     <link rel="stylesheet" href="mystyles.css">
    <script>
      function sayHello(){
-       window.alert('hello there');
+       changeColor();
+       window.alert('hello there');       
+     }
+    function getRandomRgbColor() {
+      const r = Math.floor(Math.random() * 256);
+      const g = Math.floor(Math.random() * 256);
+      const b = Math.floor(Math.random() * 256);
+      return `rgb(${r}, ${g}, ${b})`;
+    }
+     function changeColor(){
+       window.alert('changeColor');
+       let h1 = document.getElementById('myh1');
+       window.alert(h1);
+       let col = getRandomRgbColor();
+       window.alert(col);
+       h1.style.color = getRandomRgbColor();
      }
    </script>
   </head>
